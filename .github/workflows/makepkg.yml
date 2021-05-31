@@ -12,6 +12,6 @@ jobs:
       - name: Validate package
         uses: datakrama/archlinux-package-action@v1
         with:
-          path: $GITHUB_WORKSPACE/archpkg
+          path: archpkg/PKGBUILD
           flags: '-si --noconfirm'
           namcap: false
